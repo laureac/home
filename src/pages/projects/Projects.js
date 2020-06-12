@@ -24,21 +24,21 @@ function Projects (){
     },
     {
         id: 'Corona Tracker',
-        text: 'whatever',
+        text: 'Made during the Corona lock down. Used API and Chart.js',
         img: tracker,
         link: 'https://laureac.github.io/chart/',
         code: 'https://github.com/laureac/chart'
     },
     {
         id: '3D Guitar',
-        text: 'whatever',
+        text: 'Exemple of a simple use of Three.js, and 3D objects.',
         img: guitar,
         link: 'https://laureac.github.io/3d-animation/',
         code: 'https://github.com/laureac/3d-animation'
     },
     {
         id: 'Meditation App',
-        text: 'whatever',
+        text: 'My first app made with React. The illustration is made by me on illustrator. And it allows me to learn how to manipulate Howler.js as well.',
         img: meditation,
         link: 'https://laureac.github.io/meditation-app/',
         code: 'https://github.com/laureac/meditation-app'
@@ -46,6 +46,7 @@ function Projects (){
     return (
         <div className='projects'>
             <h2>Projects.</h2>
+            <p>Most of the projects are personal projects made with React.</p>
             <div className='grid'>
                 {projects.map((project)=>(
                     <div key={project.id} className='project'>
