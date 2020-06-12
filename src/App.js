@@ -4,13 +4,13 @@ import { CSSTransition } from "react-transition-group";
 import { gsap } from "gsap";
 import "./App.scss";
 
-import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/about", name: "About", Component: About }
+  { path: "/contact", name: "Contact", Component: Contact }
 ];
 
 function App() {

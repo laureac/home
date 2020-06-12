@@ -1,11 +1,15 @@
 .projects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2{
+    p{
+        font-weight: 300;
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .title{
         margin-bottom: 130px;
-        font-size: 35px;
         font-family: 'Roboto Mono', monospace;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .grid{
         display: grid;
@@ -21,6 +25,7 @@
                     width: 100%;
                     object-fit: cover;
                 }
+
         }
     }
 }

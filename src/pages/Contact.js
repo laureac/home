@@ -1,14 +1,14 @@
 import React from "react";
 import Title from "../components/Title";
 
-const About = () => {
+const Contact = () => {
   return (
     <div className='inner'>
         <Title 
-        lineContent='How I get' 
-        lineContent2='things done'/>
+        lineContent='Who I am and' 
+        lineContent2='How I get things done'/>
       <p className='other'>
-        A character his cache I succeed employed entire been it find the more
+        Worked in marketing, learnt coding and illustration. employed entire been it find the more
         and may the to his their five and towards in lay rippedup, what and so
         endure before for her been decades the few to than would was concept.
       </p>
@@ -16,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

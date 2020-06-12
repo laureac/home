@@ -45,8 +45,10 @@ function Projects (){
     }]
     return (
         <div className='projects'>
-            <h2>Projects.</h2>
-            <p>Most of the projects are personal projects made with React.</p>
+            <div className='title'>
+                <h2>Projects.</h2>
+                <p>Most of the projects are personal projects made with React.</p>
+            </div>
             <div className='grid'>
                 {projects.map((project)=>(
                     <div key={project.id} className='project'>

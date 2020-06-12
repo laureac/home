@@ -15,13 +15,13 @@ const Header = () => {
         Home
     </NavLink>
     <NavLink
-        to='/about'
+        to='/contact'
         exact
         activeStyle={{
           fontWeight: "bold",
           color: "red"
         }}>
-        About
+        Contact
     </NavLink>
     </div>
   );
