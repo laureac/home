@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
 
-const Contact = () => {
+const About = () => {
   return (
     <div className='inner'>
         <Title 
@@ -17,4 +17,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default About;

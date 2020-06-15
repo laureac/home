@@ -32,12 +32,12 @@
       height: 90vh;
       h1 {
         font-family: 'Raleway', sans-serif;
-        font-size: 52px;
+        font-size: 62px;
         font-weight: 800;
         letter-spacing: 0.08rem;
         .line-wrap {
           overflow: hidden;
-          height: 66px;
+          height: 70px;
         }
       }
       p {
@@ -45,10 +45,11 @@
         margin-top: 200px;
         width: 340px;
         font-weight: 300;
-        line-height: 24px;
-        font-size: 14px;
+        line-height: 26px;
+        font-size: 14px;     
       }
       button{
+        margin-top: 20px;
         width: 170px;
         height: 50px;
         background: none;
@@ -56,9 +57,18 @@
         font-size: 14px;
         cursor: pointer;
       }
+      button:hover{
+        background-color: #1b1b1c;
+        color: white;
+        height: 55px;
+      }
       .black{
         background-color: #1b1b1c;
         color: white;
+      }
+      .black:hover{
+        background-color: white;
+        color: #1b1b1c;
       }
     }
   }
