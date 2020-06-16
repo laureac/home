@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
     <NavLink 
-        to='/' 
+        to='/home' 
         exact 
         activeStyle={{
           fontWeight: "bold",

@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 
 const routes = [
-  { path: "/", name: "Home", Component: Home },
+  { path: "/home", name: "Home", Component: Home },
   { path: "/about", name: "About", Component: About },
   { path: "/contact", name: "About", Component: Contact }
 ];

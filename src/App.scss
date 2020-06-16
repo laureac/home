@@ -37,7 +37,7 @@
         letter-spacing: 0.08rem;
         .line-wrap {
           overflow: hidden;
-          height: 70px;
+          height: 75px;
         }
       }
       p {
@@ -58,17 +58,13 @@
         cursor: pointer;
       }
       button:hover{
-        background-color: #1b1b1c;
-        color: white;
+        background-color: white;
+        color: #1b1b1c;
         height: 55px;
       }
       .black{
         background-color: #1b1b1c;
         color: white;
-      }
-      .black:hover{
-        background-color: white;
-        color: #1b1b1c;
       }
     }
   }

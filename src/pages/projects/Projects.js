@@ -5,6 +5,7 @@ import guitar from '../../assets/guitar.JPG';
 import tracker from '../../assets/tracker.JPG';
 import meditation from '../../assets/meditation.JPG';
 import jap from '../../assets/jap.JPG';
+import video from '../../assets/video.JPG';
 import git from '../../assets/github.JPG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -49,6 +50,19 @@ function Projects (){
         img: meditation,
         link: 'https://laureac.github.io/meditation-app/',
         code: 'https://github.com/laureac/meditation-app'
+    },
+    {
+        id: 'Video App',
+        text: 'Using Youtube API, @material-UI and React Hooks.',
+        img: video,
+        link: 'https://laureac.github.io/video-app/',
+        code: 'https://github.com/laureac/video-app'
+    },{
+        id: 'Login',
+        text: 'Firebase for login authentification',
+        img: login,
+        link: 'https://laureac.github.io/registartion/',
+        code: 'https://github.com/laureac/registration'
     }]
     return (
         <div className='projects'>

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef} from "react";
 import Title from "../components/Title";
 import Projects from './projects/Projects';
 
