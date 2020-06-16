@@ -6,6 +6,7 @@ import tracker from '../../assets/tracker.JPG';
 import meditation from '../../assets/meditation.JPG';
 import jap from '../../assets/jap.JPG';
 import video from '../../assets/video.JPG';
+import login from '../../assets/login.JPG';
 import git from '../../assets/github.JPG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
