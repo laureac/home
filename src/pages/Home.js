@@ -1,6 +1,6 @@
 import React, { useRef} from "react";
 import Title from "../components/Title";
-import Projects from './projects/Projects';
+import Projects from '../components/projects/Projects';
 
 const Home = () => {
   let myRef = useRef(null)
@@ -16,8 +16,8 @@ const Home = () => {
        />
         <div>
         <p className='other'>
-          Looking for someone to join your team? My name is &nbsp;<span style={{fontWeight: "bold"}}>Laure Claret</span>, I have a good knowledge in Javascript, HTML and CSS. I work essentially &nbsp;<span style={{fontWeight: "bold"}}>React</span> to realise my projects.
-          If you want to hire me right now contact me or to see some of my work&nbsp;<span onClick={executeScroll} style={{fontWeight: "bold", textDecoration: 'none', cursor: 'pointer'}}>SCROLL DOWN</span>.
+          Looking for someone to join your team? My name is &nbsp;<span style={{fontWeight: "bold"}}>Laure Claret</span>, I have a good knowledge in Javascript, HTML and CSS. I work essentially with&nbsp;<span style={{fontWeight: "bold"}}>React</span> to realise my projects.
+          If you want to hire me now give me a call or if you want to see some of my work&nbsp;<span onClick={executeScroll} style={{fontWeight: "bold", textDecoration: 'none', cursor: 'pointer'}}>SCROLL DOWN</span>.
         </p>
           <a href='/contact'><button className='black'>Contact</button></a>
           <button >CV</button>

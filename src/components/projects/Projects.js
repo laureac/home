@@ -8,6 +8,8 @@ import jap from '../../assets/jap.JPG';
 import video from '../../assets/video.JPG';
 import login from '../../assets/login.JPG';
 import git from '../../assets/github.JPG';
+import portfolio from '../../assets/portfolio.JPG';
+import meme from '../../assets/meme.JPG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,52 +20,66 @@ function Projects (){
       }, []);
 
     const projects = [{
+        id: 'Video App',
+        text: 'Key Learning : Youtube API, @material-UI and React Hooks.',
+        img: video,
+        link: 'https://laureac.github.io/video-app/',
+        code: 'https://github.com/laureac/video-app'
+    },
+    {
         id: 'Learn Japanese App',
-        text: 'Coding a design found on Dribbble. Find the link of the design here : https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page. For this, I screened shot the background and the icons, and intent to guess the rest (font, size, margin...)',
+        text: 'Key Learning : Coding a design found on Dribbble. Link to the design : https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page. Note : screened shot the background and the icons, guess the rest (font, size, margin...)',
         img: jap,
         link: 'https://laureac.github.io/learn-japanese/',
         code: 'https://github.com/laureac/learn-japanese'
     },
     {
         id: 'Event Finder',
-        text: 'The project was done using the Foursquare API and React. The key point was to fetch, extract infos, render and style it.',
+        text: 'Key Learning : Foursquare API fetch, render and style.',
         img: event,
         link: 'https://laureac.github.io/eventfinder/',
         code: 'https://github.com/laureac/eventfinder'
     },
     {
         id: 'Corona Tracker',
-        text: 'Made during the Corona lock down. Used API, Chart.js and React.',
+        text: 'Key Learning : API, Chart.js and React Hooks.',
         img: tracker,
         link: 'https://laureac.github.io/chart/',
         code: 'https://github.com/laureac/chart'
     },
     {
         id: '3D Guitar',
-        text: 'Exemple of a simple use of Three.js, vanilla JavaScript and 3D objects.',
+        text: 'Key Learning : Three.js, vanilla JavaScript and 3D objects.',
         img: guitar,
         link: 'https://laureac.github.io/3d-animation/',
         code: 'https://github.com/laureac/3d-animation'
     },
     {
+        id: 'Registration form',
+        text: 'Key Learning : Firebase for login authentification.',
+        img: login,
+        link: 'https://laureac.github.io/registration/',
+        code: 'https://github.com/laureac/registration'
+    },
+    {
         id: 'Meditation App',
-        text: 'My first app made with React. The illustration is made by me on illustrator. And it allows me to learn how to manipulate Howler.js as well.',
+        text: 'My first app made with React. Key Learning : Howler.js and React Components.',
         img: meditation,
         link: 'https://laureac.github.io/meditation-app/',
         code: 'https://github.com/laureac/meditation-app'
+    },{
+        id: 'Meme-generator',
+        text: 'My first React app using API. Key Learning : API fetch (imgflip API).',
+        img: meme,
+        link: 'https://laureac.github.io/meme-generator/',
+        code: 'https://github.com/laureac/meme-generator'
     },
     {
-        id: 'Video App',
-        text: 'Using Youtube API, @material-UI and React Hooks.',
-        img: video,
-        link: 'https://laureac.github.io/video-app/',
-        code: 'https://github.com/laureac/video-app'
-    },{
-        id: 'Login',
-        text: 'Firebase for login authentification',
-        img: login,
-        link: 'https://laureac.github.io/registartion/',
-        code: 'https://github.com/laureac/registration'
+        id: 'Portfolio',
+        text: 'You are looking at it! Key Learning : React router and GSAP.',
+        img: portfolio,
+        link: '',
+        code: 'https://github.com/laureac/portfolio'
     }]
     return (
         <div className='projects'>
