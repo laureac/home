@@ -7,7 +7,7 @@ import designIcon from '../../assets/design.png';
 
 function Skills() {
 const design = ['UI/UX','XD','Photoshop','Illustrator','Figma','After Effect','Spark',]
-const coding = ['JavaScript', 'HTML', 'CSS', 'React']
+const coding = ['JavaScript', 'HTML', 'CSS', 'React', 'Sass', 'Front-End Libraries']
 
     return (
         <div>
