@@ -21,14 +21,14 @@ function Projects (){
 
     const projects = [{
         id: 'Video App',
-        text: 'Key Learning : Youtube API, @material-UI and React Hooks.',
+        text: 'Key Learning : Axios get API, @material-UI and React Hooks.',
         img: video,
         link: 'https://laureac.github.io/video-app/',
         code: 'https://github.com/laureac/video-app'
     },
     {
         id: 'Learn Japanese App',
-        text: 'Key Learning : Coding a design found on Dribbble. Link to the design : https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page. Note : screened shot the background and the icons, guess the rest (font, size, margin...)',
+        text: 'Key Learning : Coding a design found on Dribbble. Link to the design : https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page. Note : screened shot the background and the icons, guessed the rest (font, size, margin...)',
         img: jap,
         link: 'https://laureac.github.io/learn-japanese/',
         code: 'https://github.com/laureac/learn-japanese'
@@ -85,6 +85,7 @@ function Projects (){
         <div className='projects'>
             <div className='title' data-aos="fade-right">
                 <h2>My projects.</h2>
+                <div className='line' data-aos="fade-left"></div>
             </div>
             <div className='grid' data-aos="fade-right">
                 {projects.map((project)=>(
@@ -100,6 +101,7 @@ function Projects (){
             </div>
             <div className='title' data-aos="fade-right">
                 <h2>Interested? Let's talk.</h2>
+                <div className='line' data-aos="fade-left"></div>
                 <a href="mailto:'laure.a.claret@gmail.com"><button>-> Laure.a.claret@gmail.com</button></a>
             </div>
         </div>

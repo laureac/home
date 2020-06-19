@@ -1,19 +1,25 @@
 import React from "react";
 import Title from "../components/Title";
+import Skills from '../components/skills/Skills';
 
 const About = () => {
   return (
+    <>
     <div className='inner'>
         <Title 
         lineContent='Who I am and' 
-        lineContent2='How I get things done'/>
+        lineContent2='What I have done'/>
       <p className='other'>
-        Worked in marketing, learnt coding and illustration. employed entire been it find the more
-        and may the to his their five and towards in lay rippedup, what and so
-        endure before for her been decades the few to than would was concept.
-        ++ add skills and contact.
+        <span style={{fontWeight: 'bold'}}>Developer with positive energy! I switched from Business and Marketing career to Web Development.</span> 
+        &nbsp;After a master2 from a Business school,
+        I spent 5 years in digital marketing, worked in 3 different countries and found ❤ for coding.
+        I am currently learning to code better web app with React and having fun with new tech. 
+        I enjoy traveling to different exotic destinations, volunteering for the Queensland Conservation and train to run a marathon. 
+        <span style={{fontWeight: 'bold'}}> My skills ⬇ </span>
       </p>
     </div>
+    <Skills />
+    </>
   );
 };
 

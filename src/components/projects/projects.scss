@@ -13,7 +13,14 @@
         h2{
             font-size: 45px;
         }
+        .line{
+            height: 5px;
+            background-color: #1b1b1c;
+            width: 150px;
+            margin-bottom: 20px;
+        }
     }
+    
     .grid{
         display: grid;
         background-color: red;
@@ -29,8 +36,8 @@
             background-color: white;
             padding: 10px;
             img:hover{
-                transform: translate(0px, 8px);
-                transition-duration: .8s;
+                opacity: .5;
+                transition-duration: .6s;
             }
                 .image{
                     height: 50%;
