@@ -8,11 +8,11 @@ export default function Section({skills, title, icon}) {
       }, []);
     return (
         <div className='section' >
-            <img src={icon} alt='icon' style={{height: '300px', marginBottom: '20px'}} data-aos="fade-down-left"/>
-            <h2 data-aos="fade-down-right">{title}</h2>
+            <img src={icon} alt='icon' style={{height: '300px', marginBottom: '20px'}} data-aos="zoom-in-left"/>
+            <h2 data-aos="zoom-in-right">{title}</h2>
             <div>
             {skills.map(skill=>(
-                <div style={{letterSpacing: '4px', lineHeight: '30px'}} data-aos="fade-up-left">
+                <div style={{letterSpacing: '4px', lineHeight: '30px'}} data-aos="zoom-in-left">
                     <span style={{fontWeight: 'bold'}}>+</span>{skill}
                 </div>))}
             </div>
