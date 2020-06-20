@@ -12,7 +12,7 @@ export default function Section({skills, title, icon}) {
             <h2 data-aos="zoom-in-right">{title}</h2>
             <div>
             {skills.map(skill=>(
-                <div style={{letterSpacing: '4px', lineHeight: '30px'}} data-aos="zoom-in-left">
+                <div style={{letterSpacing: '4px', lineHeight: '40px'}} data-aos="zoom-in-left">
                     <span style={{fontWeight: 'bold'}}>+</span>{skill}
                 </div>))}
             </div>

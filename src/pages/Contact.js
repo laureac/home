@@ -16,8 +16,8 @@ const Contact = () => {
       <h3>Email : laure.a.claret@gmail.com</h3>
       <h3>Location : Brisbane</h3>
       </p>
-      <img src={contact} alt='shoot email' style={{position: 'absolute', zIndex:'-10', width:'300px', margin:'260px -330px'}}/>
     </div>
+    <img src={contact} alt='shoot email' style={{position: 'absolute', zIndex:'-10', width:'300px', margin:'-450px -280px'}}/>
     </>
   );
 };
