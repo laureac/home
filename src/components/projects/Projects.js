@@ -21,7 +21,7 @@ function Projects (){
 
     const projects = [{
         id: 'Video App',
-        text: 'Key Learning : Axios get API, @material-UI and React Hooks.',
+        text: 'Made a youtube like app. Key Learning : Axios get API, @material-UI and React Hooks.',
         img: video,
         link: 'https://laureac.github.io/video-app/',
         code: 'https://github.com/laureac/video-app'
@@ -35,41 +35,41 @@ function Projects (){
     },
     {
         id: 'Event Finder',
-        text: 'Key Learning : Foursquare API fetch, render and style.',
+        text: 'Enter a destination and find the most popular venues around. Key Learning : Foursquare API fetch, render and style.',
         img: event,
         link: 'https://laureac.github.io/eventfinder/',
         code: 'https://github.com/laureac/eventfinder'
     },
     {
         id: 'Corona Tracker',
-        text: 'Key Learning : API, Chart.js and React Hooks.',
+        text: 'See in really time the COVID-19 stats. Key Learning : API, Chart.js and React Hooks.',
         img: tracker,
         link: 'https://laureac.github.io/chart/',
         code: 'https://github.com/laureac/chart'
     },
     {
         id: '3D Guitar',
-        text: 'Key Learning : Three.js, vanilla JavaScript and 3D objects.',
+        text: 'An exemple of the experience that offers 3D. Key Learning : Three.js, vanilla JavaScript and 3D objects.',
         img: guitar,
         link: 'https://laureac.github.io/3d-animation/',
         code: 'https://github.com/laureac/3d-animation'
     },
     {
         id: 'Registration form',
-        text: 'Key Learning : Firebase for login authentification.',
+        text: 'A simple login/sign up form. Key Learning : Firebase for login authentification.',
         img: login,
         link: 'https://laureac.github.io/registration/',
         code: 'https://github.com/laureac/registration'
     },
     {
         id: 'Meditation App',
-        text: 'My first app made with React. Key Learning : Howler.js and React Components.',
+        text: 'My first app made with React. Play relaxing music for your meditation break. Key Learning : Howler.js and React Components.',
         img: meditation,
         link: 'https://laureac.github.io/meditation-app/',
         code: 'https://github.com/laureac/meditation-app'
     },{
         id: 'Meme-generator',
-        text: 'My first React app using API. Key Learning : API fetch (imgflip API).',
+        text: 'My first React app using API. Create your own meme from the most popular meme-template on imgflip. Key Learning : API fetch.',
         img: meme,
         link: 'https://laureac.github.io/meme-generator/',
         code: 'https://github.com/laureac/meme-generator'
