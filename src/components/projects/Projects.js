@@ -42,7 +42,7 @@ function Projects (){
     },
     {
         id: 'Corona Tracker',
-        text: 'See in really time the COVID-19 stats. Key Learning : API, Chart.js and React Hooks.',
+        text: 'Visualise in really time the COVID-19 stats. Key Learning : API, Chart.js and React Hooks.',
         img: tracker,
         link: 'https://laureac.github.io/chart/',
         code: 'https://github.com/laureac/chart'
