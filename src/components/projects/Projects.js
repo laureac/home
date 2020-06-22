@@ -9,6 +9,7 @@ import video from '../../assets/video.JPG';
 import login from '../../assets/login.JPG';
 import git from '../../assets/github.JPG';
 import portfolio from '../../assets/portfolio.JPG';
+import smoothie from '../../assets/smoothie.JPG';
 import meme from '../../assets/meme.JPG';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,6 +26,13 @@ function Projects (){
         img: video,
         link: 'https://laureac.github.io/video-app/',
         code: 'https://github.com/laureac/video-app'
+    },
+    {
+        id: 'Smoothie-bar',
+        text: 'Simulation of an smoothie online shop. Key Learning : Vanilla JavaScript, HTML and CSS.',
+        img: smoothie,
+        link: 'https://laureac.github.io/smoothie-bar/index.html',
+        code: 'https://github.com/laureac/smoothie-bar'
     },
     {
         id: 'Learn Japanese App',
@@ -82,10 +90,10 @@ function Projects (){
         code: 'https://github.com/laureac/portfolio'
     }]
     return (
-        <div className='projects'>
+    <>
+        <div className='main' data-aos="zoom-in">
             <div className='title' data-aos="fade-right">
-                <h2>My projects.</h2>
-                <div className='line' data-aos="fade-left"></div>
+                <h2 data-aos="fade-left">My projects.</h2>
             </div>
             <div className='grid' data-aos="fade-right">
                 {projects.map((project)=>(
@@ -99,12 +107,13 @@ function Projects (){
                     </div>
                 ))}
             </div>
-            <div className='title' data-aos="fade-right">
-                <h2>Interested? Let's talk.</h2>
-                <div className='line' data-aos="fade-left"></div>
-                <a href="mailto:'laure.a.claret@gmail.com"><button>-> Laure.a.claret@gmail.com</button></a>
-            </div>
+            
         </div>
+        <div className='title' >
+                <h2 data-aos="fade-right">Interested? Let's talk.</h2>
+                <a href="mailto:'laure.a.claret@gmail.com"><button className='black' data-aos="fade-left">-> Laure.a.claret@gmail.com</button></a>
+            </div>
+    </>
     );
 }
 

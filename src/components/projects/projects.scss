@@ -1,36 +1,31 @@
-.projects{
+.main{
+   background-color: red;
     p{
         font-weight: 300;
         line-height: 26px;
         font-size: 14px;  
     }
     .title{
-        padding: 20px;
-        margin-bottom: 90px;
+        margin: 20px;
         display: flex;
         flex-direction: column;
         font-family: 'Raleway', sans-serif;
         h2{
-            font-size: 45px;
-        }
-        .line{
-            height: 5px;
-            background-color: #1b1b1c;
-            width: 150px;
-            margin-bottom: 20px;
+            font-size: 120px;
+            color: #ffe190;
         }
     }
     
     .grid{
         display: grid;
-        background-color: red;
+        
         color: #1b1b1c;
         padding: 2px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 2px;
         justify-content: center;
-        width: 90vw;
+        
         font-family: 'Roboto Mono', monospace;
         .project{
             background-color: white;
@@ -44,16 +39,30 @@
                     width: 100%;
                     object-fit: cover;
                 }
-
         }
     }
+    
+}
+.title{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    h2{
+        font-size: 120px;
+        color: #ffe190;
+        margin-bottom: 10px;
+    }
     button{
-        width: 290px;
+        width: 350px;
         height: 50px;
         background: none;
         font-family: 'Roboto Mono', monospace;
         font-size: 16px;
         cursor: pointer;
+        background-color: #1b1b1c;
+        color: white;
+        margin: 20px;
       }
       button:hover{
         color: #1b1b1c;

@@ -21,7 +21,7 @@ const Home = () => {
           If you want to hire me now give me a call or take a look around!&nbsp;<span onClick={executeScroll} style={{fontWeight: "bold", textDecoration: 'none', cursor: 'pointer'}}>Check out my work</span>.
         </p>
           <a href='/contact'><button className='black'>Contact</button></a>
-          <a href='https://www.keepandshare.com/doc21/111861/laure-claret-cv-pdf-2-2-meg?da=y' target="_blank" rel="noopener noreferrer"><button >CV</button></a>
+          <a href='/about'><button >Skills</button></a>
       </div>
     </div>
     <div className= 'projects' ref={myRef} >
