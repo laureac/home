@@ -18,10 +18,10 @@ const Home = () => {
         <p className='other'>
           Looking for a Front-End Dev to join your team? Hi I am &nbsp;<span style={{fontWeight: "bold"}}>Laure Claret</span>, 
           my main skills are Javascript, HTML and CSS. I work essentially with&nbsp;<span style={{fontWeight: "bold"}}>React</span> to realise my projects.
-          If you want to hire me now give me a call or take a look around!&nbsp;<span onClick={executeScroll} style={{fontWeight: "bold", textDecoration: 'none', cursor: 'pointer'}}>Check out my work</span>.
+          If you want to hire me now give me a call or take a look around!
         </p>
           <a href='/contact'><button className='black'>Contact</button></a>
-          <a href='/about'><button >Skills</button></a>
+          <button onClick={executeScroll} >Work</button>
       </div>
     </div>
     <div className= 'projects' ref={myRef} >
