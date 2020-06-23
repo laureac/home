@@ -28,11 +28,11 @@ function Projects (){
         code: 'https://github.com/laureac/video-app'
     },
     {
-        id: 'Smoothie-bar',
-        text: 'Simulation of an smoothie online shop. Key Learning : Vanilla JavaScript, HTML and CSS.',
+        id: 'Ice-cream online shop',
+        text: 'Simulation of an ice-cream online shop. Key Learning : Vanilla JavaScript, HTML and CSS.',
         img: smoothie,
-        link: 'https://laureac.github.io/smoothie-bar/index.html',
-        code: 'https://github.com/laureac/smoothie-bar'
+        link: 'https://laureac.github.io/ice-cream/',
+        code: 'https://github.com/laureac/ice-cream'
     },
     {
         id: 'Learn Japanese App',

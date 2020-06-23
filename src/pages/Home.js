@@ -21,7 +21,7 @@ const Home = () => {
           If you want to hire me now give me a call or take a look around!
         </p>
           <a href='/contact'><button className='black'>Contact</button></a>
-          <button onClick={executeScroll} >Work</button>
+          <button onClick={executeScroll} >Projects</button>
       </div>
     </div>
     <div className= 'projects' ref={myRef} >
