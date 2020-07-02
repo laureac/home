@@ -11,21 +11,14 @@ const Home = () => {
     <>
     <div className='inner'>
         <Title 
-         lineContent='Flawless web apps'
-         lineContent2='is what I make'
+         lineContent='Laborum dolore'
+         lineContent2='culpa do ut.'
        />
-        <div>
+      <div>
         <p className='other'>
-          Looking for a Front-End Dev to join your team? Hi I am &nbsp;<span style={{fontWeight: "bold"}}>Laure Claret</span>, 
-          my main skills are Javascript, HTML and CSS. I work essentially with&nbsp;<span style={{fontWeight: "bold"}}>React</span> to realise my projects.
-          If you want to hire me now give me a call or take a look around!
+          Nulla ad consectetur ut nostrud elit sunt nulla commodo excepteur ex voluptate. Commodo ea pariatur proident excepteur Lorem.
         </p>
-          <a href='/contact'><button className='black'>Contact</button></a>
-          <button onClick={executeScroll} >Projects</button>
       </div>
-    </div>
-    <div className= 'projects' ref={myRef} >
-      <Projects />
     </div>
     </>
   );
