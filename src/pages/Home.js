@@ -16,7 +16,7 @@ const Home = () => {
        />
       <div>
         <p className='other'>
-        Lurk come a rock up maccas bazza joey swagger beauty. Mate sickie joey cleanskin offsider.
+        Lurk come a rock up maccas bazza joey swagger beauty. Mate sickie joey cleanskin offsider. Fisho outback full blown bush oyster sheila. Bush telly digger relo thongs chokkie frog in a sock fossicker strides mate as cunning as a dunny rat cockie.
         </p>
       </div>
     </div>
