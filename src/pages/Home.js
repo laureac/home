@@ -11,12 +11,12 @@ const Home = () => {
     <>
     <div className='inner'>
         <Title 
-         lineContent='Laborum dolore'
-         lineContent2='culpa do ut.'
+         lineContent='Whats crackin'
+         lineContent2='you little ripper'
        />
       <div>
         <p className='other'>
-          Nulla ad consectetur ut nostrud elit sunt nulla commodo excepteur ex voluptate. Commodo ea pariatur proident excepteur Lorem.
+        Lurk come a rock up maccas bazza joey swagger beauty. Mate sickie joey cleanskin offsider.
         </p>
       </div>
     </div>

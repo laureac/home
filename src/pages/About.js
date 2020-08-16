@@ -6,10 +6,10 @@ const About = () => {
     <>
     <div className='inner'>
         <Title 
-        lineContent='Qui ipsum ' 
-        lineContent2='commodo ullamco.'/>
+        lineContent='Mate milk bar no dramas' 
+        lineContent2='Holy dooley.'/>
       <p className='other'>
-       Voluptate nisi anim ullamco consectetur nisi non. Nostrud laboris adipisicing deserunt Lorem ullamco culpa enim qui sunt ex occaecat aliquip magna.
+        Billabong as dry as a fairy floss sook show pony sickie dero your shout.
       </p>
     </div>
     </>

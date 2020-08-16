@@ -6,8 +6,8 @@ const Contact = () => {
     <>
     <div className='inner'>
         <Title 
-        lineContent='Voluptate dolor.' 
-        lineContent2='esse excepteur.' 
+        lineContent='Stubby sook' 
+        lineContent2='bottlo top end.' 
        />
       <p className='other'>
       <h3>Phone : 0466 896 995</h3>
