@@ -4,13 +4,13 @@ import Title from "../components/Title";
 const About = () => {
   return (
     <>
-    <div className='inner'>
+    <div className='inner about'>
         <Title 
-        lineContent='Mate no dramas' 
-        lineContent2='Holy dooley.'/>
+        lineContent='Authentically Hand ' 
+        lineContent2='Crafted By Artisans.'/>
       <p className='other'>
-        Billabong as dry as a fairy floss sook show pony sickie dero your shout. Bush telly digger relo thongs chokkie frog in a sock fossicker strides mate as cunning as a dunny rat cockie.
-      </p>
+        Our unique homewares and lifestyle pieces are hand crafted by artisans, with the use of eco-friendly, natural materials. Our range of decor products and other homely essentials can be used in various situations to splash a bit of colour and uniqueness around the home.
+        Every piece, being individually crafted, is authentically created using artisan craftmanship that also empowers women’s cooperatives.</p>
     </div>
     </>
   );

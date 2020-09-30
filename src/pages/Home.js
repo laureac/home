@@ -1,6 +1,5 @@
 import React, { useRef} from "react";
 import Title from "../components/Title";
-import Projects from '../components/projects/Projects';
 
 const Home = () => {
   let myRef = useRef(null)
@@ -9,14 +8,14 @@ const Home = () => {
   
   return (
     <>
-    <div className='inner'>
+    <div className='inner home'>
         <Title 
-         lineContent='Whats crackin'
-         lineContent2='you little ripper'
+         lineContent='TRIBAL & BOHEMIAN'
+         lineContent2='Coastal Bohemian Chic'
        />
       <div>
         <p className='other'>
-        Lurk come a rock up maccas bazza joey swagger beauty. Mate sickie joey cleanskin offsider. Fisho outback full blown bush oyster sheila. Bush telly digger relo thongs chokkie frog in a sock fossicker strides mate as cunning as a dunny rat cockie.
+        Our passion is to design unique, fresh and timeless pieces, that add warmth, love and texture to your home. We offer a variety of small, medium and large size outdoor and indoor plants. Hopefully you can find something you fall in love!
         </p>
       </div>
     </div>
