@@ -6,11 +6,15 @@ const About = () => {
     <>
     <div className='inner about'>
         <Title 
-        lineContent='Authentically Hand ' 
-        lineContent2='Crafted By Artisans.'/>
+        lineContent='Sarah B. Lyn' 
+        lineContent2='The founder'/>
       <p className='other'>
-        Our unique homewares and lifestyle pieces are hand crafted by artisans, with the use of eco-friendly, natural materials. Our range of decor products and other homely essentials can be used in various situations to splash a bit of colour and uniqueness around the home.
-        Every piece, being individually crafted, is authentically created using artisan craftmanship that also empowers women’s cooperatives.</p>
+        Breathes Yoga is run by Sarah Lyn. She has studied with teachers around the world since 1975.
+        After studying with the International Yoga Teachers' Association (I.Y.T.A.) Sarah received her Diploma in 1982.
+        She has been devotedly teaching Hatha Yoga since that time (before Yoga was popular)!
+
+        The classes at Breathes Yoga are centered on total body wellness.
+      </p>
     </div>
     </>
   );

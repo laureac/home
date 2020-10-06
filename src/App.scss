@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+
+}
+h1, h2, h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+  font-size: 1rem;
+}
 
 .header {
   width: 100%;
@@ -29,9 +43,8 @@
     .inner {
       display: flex;
       justify-content: center;
-      height: 70vh;
+      height: 75vh;
       h1 {
-        font-family: 'Oswald', sans-serif;
         font-size: 61px;
         font-weight: 800;
         letter-spacing: 0.08rem;
@@ -41,7 +54,7 @@
         }
       }
       p {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
         margin-top: 200px;
         width: 340px;
         font-weight: 300;
@@ -90,15 +103,63 @@
   background-size: cover;
   background-position: center;
   padding: 40px;
-  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.4);
-  min-width: 70vw;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+  min-width: 90vw;
 }
 .about{
   background-image: url('./assets/3.jpg');
 }
 .home{
-  background-image: url('./assets/2.jpg');
+  background-image: url('./assets/4.jpg');
 }
 .contact{
+  background-image: url('./assets/2.jpg');
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 90vw;
+  display: grid;
+  display: grid;
+  margin-bottom: 5vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "main main main main main main side side side side"
+    "main main main main main main side side side side"
+    "bottom1 bottom1 bottom1 bootom2 bootom2 bootom2 bootom2 bottom3 bottom3 bottom3";
+}
+.bottom1 { 
+  grid-area: bottom1; 
+  box-shadow: inset 0 0 0 100vw rgba(226,196,165, 0.8);
+  background-image: url('./assets/7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bootom2 { 
+  grid-area: bootom2;
+  padding: 3rem;
+  color: black;
+  line-height: 2rem;
+}
+.bottom3 { 
+  grid-area: bottom3;
+  background-image: url('./assets/5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0, 0.7);
+}
+.side { 
+  grid-area: side; 
+  padding: 3rem;
+  color: black;
+  line-height: 2rem;
+}
+.main { 
+  grid-area: main; 
   background-image: url('./assets/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

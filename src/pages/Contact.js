@@ -10,10 +10,10 @@ const Contact = () => {
         lineContent2='To Hear From You' 
        />
       <p className='other'>
-      We pride ourselves on being the coolest online hippie shop. When shopping with us you'll always get amazing service and awesome products at warehouse prices.
-      CALL US + 0400 000 000. <br></br>
+      P A R T N E R . T E A C H E R . N A M A S T E
+      Email us directly at breathes@yoga.com or Call us + 0400 000 000. <br></br>
 
-      JOIN THE JOURNEY for promotions, discounts.
+      Join the journey for promotions, discounts.
       </p>
     </div>
     </>

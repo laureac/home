@@ -9,7 +9,7 @@ const Header = () => {
         exact 
         activeStyle={{
           fontWeight: "bold",
-          color: "green"
+          color: "#E2C4A5"
         }}
     >
         Home
@@ -19,7 +19,7 @@ const Header = () => {
         exact
         activeStyle={{
           fontWeight: "bold",
-          color: "green"
+          color: "#E2C4A5"
         }}>
         About
     </NavLink>
@@ -28,7 +28,7 @@ const Header = () => {
         exact
         activeStyle={{
           fontWeight: "bold",
-          color: "green"
+          color: "#E2C4A5"
         }}>
         Contact
     </NavLink>
